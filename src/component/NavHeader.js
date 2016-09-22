@@ -1,13 +1,17 @@
 import React, { PropTypes } from 'react';
 
 class NavHeader extends React.Component {
+  handleBack(){
+    this.context.router.goBack();
+ }
   render () {
+
   return(
     <div className="nav-header">
-  <p>
-  <span className="glyphicon glyphicon-arrow-left"></span>back</p>
+  <p onClick={this.handleBack.bind(this)}>
+  <span className="glyphicon glyphicon-arrow-left" aria-hidden="true">back</span></p>
 
-    <h3>xixilide@home</h3>
+    <h3>xixilide@{this.props.title}</h3>
 
   <span className="glyphicon glyphicon-record"></span>
 
@@ -15,5 +19,6 @@ class NavHeader extends React.Component {
   )
   }
 }
+
 
 export default NavHeader;
