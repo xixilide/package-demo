@@ -13,30 +13,32 @@ class BlogCard extends React.Component {
         marginBottom:'20px',
         border:'1px solid #ccc',
         borderRadius:'8px',
-  
+        backgroundColor:'#ffa07a',
 
       },
-      num:{
-          lineHeight:'60px',
-          width:'60px',
-          height:'60px',
-          borderRadius:'50%',
-          border: '2px solid #fff',
-          display:'block',
-          fontSize:'20px',
-          margin:'0px auto',
-
-          fontWeight:'400',
-
-       },
       index:{
+        display:'flex',
+        alignItems:'center',
         width:'30px',
         height:'30px',
         borderRadius:'15px',
-        border:'1px solid #fff',
-        paddingTop:'10px',
-
+        border:'2px solid #fff',
+        margin:'10px 10px',
         textAlign: 'center',
+      },
+      num:{
+
+          fontSize:'22px',
+          lineHeight:'30px',
+          fontWeight:'500',
+          margin:'0 auto',
+          color:'#fff',
+
+       },
+
+      content:{
+        padding:'10px',
+        color:'#727272',
       },
       title:{
         fontSize:'20px',
@@ -50,7 +52,7 @@ class BlogCard extends React.Component {
         borderRadius:'5px',
         width:'80px',
         height:'30px',
-
+        backgroundColor:''
       }
 
     }
@@ -60,11 +62,12 @@ class BlogCard extends React.Component {
         <div style={styles.index}>
           <p style={styles.num}>{this.props.index}</p>
         </div>
-        <p style={styles.title}>{this.props.title}</p>
-
+        <div style={styles.content}>
+          <p style={styles.title}>{this.props.title}</p>
           <p style={styles.desc}>{this.props.desc}</p>
-          <Link to='address' style={styles.btn}></Link>
 
+          <Link to={address}  style={styles.btn}>阅读更多</Link>
+        </div>
       </div>
     )
   }

@@ -20,5 +20,7 @@ class NavHeader extends React.Component {
   }
 }
 
-
+NavHeader.contextTypes = {
+  router: React.PropTypes.object.isRequired
+}
 export default NavHeader;

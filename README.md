@@ -32,7 +32,7 @@ Transforms are enabled for files inside `src` (except `index.js`).
         - center： 居中
         - space-between：两端对齐，项目之间的间隔都相等。
         - space-around：每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。
-  - align-items: flex-start | flex-end | center | baseline | stretch;
+        - align-items: flex-start | flex-end | center | baseline | stretch;
         - flex-start：交叉轴的起点对齐。
         -  flex-end：交叉轴的终点对齐。
         -  center：交叉轴的中点对齐。
@@ -58,4 +58,24 @@ Transforms are enabled for files inside `src` (except `index.js`).
 
   - flex flex   该属性有两个快捷值：auto (1 1 auto) 和 none (0 0 auto)。属性是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 auto。后两个属性可选。
 
-  - align-self align-self属性允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch。
+  - align-self align-self属性允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，         表示继承父元素的align-items属性，如果没有父元素，则等同于stretch。
+    该属性可能取6个值，除了auto，其他都与align-items属性完全一致。
+
+### 响应式覆盖属性
+
+```css
+@media (min-width:760px) {
+  .content-warp{
+    flex-direction: row;
+  }
+
+}
+```
+### 用外界的数据来访问
+   - 在其他仓库创建你的数据库，用网址建立链接用来后台访问
+
+###  引入marked高亮样式
+```js
+import hljs from 'highlight.js';
+import marked from 'marked';
+```
