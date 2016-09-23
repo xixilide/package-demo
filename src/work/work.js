@@ -7,7 +7,7 @@ class Work extends React.Component {
 
 
         <div className="work-card">
-              <a href="#"><img src="http://7xopqp.com1.z0.glb.clouddn.com/contain-none.jpg" /></a>
+              <a href="#"><img src="http://img1.skqkw.cn:888/2014/11/10/12t/li0bekpma55-23603.jpg" /></a>
                   <div className="work-text">
                     <h3>作品一</h3>
                     <p>2016.5.6</p>
@@ -15,26 +15,26 @@ class Work extends React.Component {
                 </div>
 
       <div className="work-card">
-            <a href="#"><img src="http://img2.3lian.com/2014/f3/4/d/58.jpg" /></a>
+            <a href="#"><img src="http://img4.duitang.com/uploads/item/201510/18/20151018120957_W3AGU.jpeg" /></a>
                 <div className="work-text">
-                  <h3>作品一</h3>
-                  <p>2016.5.6</p>
+                  <h3>作品二</h3>
+                  <p>2015.10.6</p>
                 </div>
               </div>
 
     <div className="work-card">
-          <a href="#"><img src="http://img05.tooopen.com/images/20140804/sy_68129433588.jpg" /></a>
+          <a href="#"><img src="http://img0.imgtn.bdimg.com/it/u=3983480950,1985560014&fm=21&gp=0.jpg" /></a>
               <div className="work-text">
-                <h3>作品一</h3>
-                <p>2016.5.6</p>
+                <h3>作品三</h3>
+                <p>2016.1.5</p>
               </div>
     </div>
 
   <div className="work-card">
-        <a href="#"><img src="http://img15.3lian.com/2015/f1/153/d/45.jpg" /></a>
+        <a href="#"><img src="http://img5.duitang.com/uploads/item/201507/15/20150715012629_LQ4T5.jpeg" /></a>
           <div className="work-text">
               <h3>作品一</h3>
-              <p>2016.5.6</p>
+              <p>2016.4.6</p>
         </div>
   </div>
 </div>

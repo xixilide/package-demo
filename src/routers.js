@@ -6,6 +6,12 @@ import Blog from './blog/blog';
 import Work from './work/work';
 import About from './About/About';
 import Item from './Item/Item';
+import Skill from './component/aboutskill';
+import Hobby from './component/abouthobby';
+import Story from './component/aboutstory';
+
+
+
 
 export default class Routers extends React.Component{
   render(){
@@ -16,6 +22,10 @@ export default class Routers extends React.Component{
           <Route path="/blog" component={Blog} />
           <Route path="/work" component={Work} />
           <Route path="/about" component={About} />
+            <Route path="/about/skill" component={Skill} />
+            <Route path="/about/hobby" component={Hobby} />
+            <Route path="/about/story" component={Story} />
+
           <Route path="/item/:url" component={Item} />
         </Route>
       </Router>
