@@ -6,10 +6,14 @@ import Blog from './blog/blog';
 import Work from './work/work';
 import About from './About/About';
 import Item from './Item/Item';
-import Skill from './component/aboutskill';
-import Hobby from './component/abouthobby';
-import Story from './component/aboutstory';
+import Skill from './About/component/aboutskill';
+import Hobby from './About/component/abouthobby';
+import Story from './About/component/aboutstory';
 
+
+import NewPost from './About/component/posts/NewPost';
+import EditPost from './About/component/posts/EditPost';
+import ShowPost from './About/component/posts/ShowPost';
 
 
 
@@ -24,8 +28,11 @@ export default class Routers extends React.Component{
           <Route path="/about" component={About} />
             <Route path="/about/skill" component={Skill} />
             <Route path="/about/hobby" component={Hobby} />
-            <Route path="/about/story" component={Story} />
 
+              <Route path="/about/story" component={Story} />
+               <Route path='/write' component={NewPost} />
+                 <Route path='/post/:id' component={ShowPost} />
+                 <Route path='/post/:id/new' component={EditPost} />
           <Route path="/item/:url" component={Item} />
         </Route>
       </Router>

@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import BlogCard from '../component/blogcard';
+import BlogCard from './component/blogcard';
 import { getJson } from '../utils/helper';
 
 
