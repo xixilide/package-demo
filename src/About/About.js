@@ -26,11 +26,12 @@ class About extends React.Component {
         <h3 style={styles.hp}>闫进霞--YANJINXIA</h3>
         <p style={styles.ap}><span style={{color:'#6D4C41'}}>Graduate：</span>燕山大学里仁学院</p>
         <p style={styles.ap}><span style={{color:'#6D4C41'}}>Major：</span>计算机科学与技术</p>
-          <p style={styles.ap}><span style={{color:'#6D4C41'}}>Hobby：</span>写作、读书、运动、编程</p>
+        <p style={styles.ap}><span style={{color:'#6D4C41'}}>Myblog1：</span><a　href="http://xixilide.coding.me/mydoc">Javascript自学笔记</a></p>
+        <p style={styles.ap}><span style={{color:'#6D4C41'}}>Myblog2：</span><a　href="http://xixilide.coding.me/API">Express－React 框架实例笔记</a></p>
+        <p style={styles.ap}><span style={{color:'#6D4C41'}}>Hobby：</span>写作、读书、运动、编程</p>
         <p style={styles.ap}><span style={{color:'#6D4C41'}}>Character：</span>追求完美，不甘平凡</p>
-        <p style={styles.ap}><span style={{color:'#6D4C41'}}>Tryelephone：</span>1713501526</p>
+        <p style={styles.ap}><span style={{color:'#6D4C41'}}>Telephone：</span>18713501526</p>
         <p style={styles.ap}><span style={{color:'#6D4C41'}}>Email：</span>754396775@qq.com</p>
-
 
       </div>
     )
