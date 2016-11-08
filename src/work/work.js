@@ -12,7 +12,7 @@ class Work extends React.Component {
 
 
         <div className="work-card">
-              <a href="https://xixilide.github.io/"><img src={Img1} /></a>
+              <a href="https://xixilide.github.io/maisi.html"><img src={Img1} /></a>
                   <div className="work-text">
                     <h3>作品一：迈思设计</h3>
                     <p>2016.5.6</p>
