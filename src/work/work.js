@@ -1,8 +1,8 @@
 import React, { PropTypes } from 'react'
-import Img1 from '../img/c7.jpg';
-import Img2 from '../img/c1.jpg';
-import Img3 from '../img/c2.jpg';
-import Img4 from '../img/c6.jpg';
+import Img1 from '../img/c1.jpg';
+import Img2 from '../img/c2.jpg';
+import Img3 from '../img/c3.jpg';
+import Img4 from '../img/c4.jpg';
 
 
 class Work extends React.Component {
